@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/pantone-table.js",
-  "type": "module",
+  "module": "dist/pantone-table.es.js",
   "exports": {
     "import": "./dist/pantone-table.es.js",
     "require": "./dist/pantone-table.js"
