@@ -1,0 +1,30 @@
+{
+  "name": "pantone-table",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/pantone-table.js",
+  "type": "module",
+  "exports": {
+    "import": "./dist/pantone-table.es.js",
+    "require": "./dist/pantone-table.js"
+  },
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catdad-experiments/pantone-table.git"
+  },
+  "keywords": [],
+  "author": "Kiril Vatev <vatev.1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/catdad-experiments/pantone-table/issues"
+  },
+  "homepage": "https://github.com/catdad-experiments/pantone-table#readme",
+  "devDependencies": {
+    "pantoner": "^1.1.2",
+    "postcss-color-pantone": "^0.1.0",
+    "rootrequire": "^1.0.0"
+  }
+}
