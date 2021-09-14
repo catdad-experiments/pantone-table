@@ -8,6 +8,7 @@
     "import": "./dist/pantone-table.es.js",
     "require": "./dist/pantone-table.js"
   },
+  "sideEffects": false,
   "scripts": {
     "build": "node scripts/build.js"
   },
